@@ -1,0 +1,127 @@
+___________________________________________________________
+Day-4 (Session management in PCF)
+
+https://github.com/jaycmishra/pcf
+
+App performance mgmt using NewRelic :
+
+Session-replication / apache-redis
+Zerodowntime
+bluegreen deployment via IDE
+(Rout map and unmap via IDE)
+
+Canary deployment - gradual deployment 
+
+Jenkins local instalaltion 0n 8081 and demo for git,CF plugins
+SpringIO,-profiles-boot-cloud
+___________________________________________________________
+Day -3
+
+YAML  manifest file (Inheritance and Overriding)
+
+Env variable
+
+cf-spring-mvc-demo as an example
+Autoscaling
+
+buildpacks (Deduct, assemble and release)
+cf buildpacks
+example - cf-static-demo
+in which buildpackis given from remote urln and CLI wouldn't download from pivotal
+Lo
+Papertrailapp.com 3rd party logger - registration
+
+run setup commnads in thirdpartyLogSystem
+create cups
+12factor design principles
+___________________________________________________________
+day-2
+create Service
+Bind service
+example with mySql, tomcat and cleardb from provided
+Pivotal managed services
+User provided services - cups
+Logs 
+Trobleshooting
+cloud Controller, Logregatror
+___________________________________________________________
+___________________________________________________________
+day-1
+Account creation
+Org, Space, roles
+Cf apps create 
+
+IDE, CLI and Web console
+
+
+
+
+___________________________________________________________
+
+___________________________________________________________
+
+
+___________________________________________________________
+
+___________________________________________________________
+
+___________________________________________________________
+
+___________________________________________________________
+
+C:\Users\jaymishr\AppData\Roaming\Cloud Foundry
+
+Router - how many sufficient for an application ?
+
+
+cf push service-music -m 1024m -n serice-music-8553 -i 1 -p C:\pcf\spring-music.war
+
+Crete service 
+Bind service with app
+Restage app
+
+cf create-service cleardb spark capdb-jm
+
+cf bind-service service-music-8553 capdb-jm
+cf unbind-service service-music-8553 capdb-jm
+https://github.com/cloudfoundry/java-buildpack
+
+
+mongodb://<dbuser>:<dbpassword>@ds217360.mlab.com:17360/CloudFoundry_c8bokoag_t6heuin8
+
+mongodb://CloudFoundry_c8bokoag:fv5iucvyHNHNf72RVHweWmXFng7QEOlO@ds217360.mlab.com:17360/CloudFoundry_c8bokoag_t6heuin8
+
+CloudFoundry_c8bokoag
+
+fv5iucvyHNHNf72RVHweWmXFng7QEOlO
+
+
+cf logs
+cf events
+
+
+
+
+Day-1
+
+day-2
+create Service
+Bind service
+example with mySql, tomcat and cleardb from provided
+Pivotal managed services
+User provided services - cups
+Logs 
+Trobleshooting
+cloud Controller, Logregatror
+
+
+
+
+
+
+
+
+cf cups caplog -l syslog://<thirdpartyLogSystemURL>>
+https://github.com/jaycmishra/pcftraining/import
+
+http://12factor.net
